@@ -40,9 +40,9 @@ const customProjects = [
   {
     id: 6,
     videoSrc: "/assets/images/my-portfolio/projects/The Bhai Friends.webm",
-    title: "The Bhai Friends - Comedy Drama Short",
+    title: "The Bhai Friends - Biryani Catering Promo",
     category: "Reels Editing",
-    description: "A highly engaging comedic short narrative edit utilizing visual timing, seamless sound transitions, and crisp dialogue pacing.",
+    description: "A premium, dynamic commercial promotional ad reel for The Bhai Friends Biryani Catering, showcasing mouth-watering culinary preparation, rich traditional flavors, and cinematic food styling.",
   },
 ];
 
