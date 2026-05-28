@@ -10,6 +10,7 @@ import Faq from "./Faq";
 import Team from "./Team";
 import Link from "next/link";
 import Image from "next/image";
+import Skills from "./Skills";
 export default function PortfolioNewMain({ onePage = false, dark = false }) {
   return (
     <>
@@ -101,6 +102,17 @@ export default function PortfolioNewMain({ onePage = false, dark = false }) {
         id="awards"
       >
         <Awards />
+      </section>
+      <hr
+        className={`${dark ? "white opacity-015" : "black"} black mt-0 mb-0"`}
+      />
+      <section
+        className={`page-section scrollSpysection ${
+          dark ? "bg-dark-1 light-content" : ""
+        }`}
+        id="skills"
+      >
+        <Skills />
       </section>
       <hr
         className={`${dark ? "white opacity-015" : "black"} black mt-0 mb-0"`}

@@ -30,7 +30,7 @@ const myAwards = [
     title: "BlackSheep Awards",
     description: "Honorable Mention - Outstanding Art Direction",
     date: "2023",
-    imgSrc: "/assets/images/my-portfolio/awards/BlackSheep.png"
+    imgSrc: "/assets/images/my-portfolio/awards/Blacksheep.png"
   }
 ];
 

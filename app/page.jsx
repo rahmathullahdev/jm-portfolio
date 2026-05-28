@@ -13,6 +13,7 @@ export const metadata = {
 const customLinks = [
   { href: "#home", text: "Home" },
   { href: "#about", text: "About" },
+  { href: "#skills", text: "Skills" },
   { href: "#services", text: "Services" },
   { href: "#portfolio", text: "Projects" },
   { href: "#collaborations", text: "Collaborations" },
