@@ -106,9 +106,7 @@ export default function Hero({ dark }) {
                 data-wow-offset={0}
               >
                 <a
-                  href="https://www.instagram.com/jashu_manik/"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="#portfolio"
                   className={`btn btn-mod ${
                     dark ? "btn-w" : ""
                   } btn-medium btn-circle`}

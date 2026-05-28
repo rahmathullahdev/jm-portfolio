@@ -1,7 +1,4 @@
-import Footer from "@/components/portfolio-new/Footer";
-import Header from "@/components/portfolio-new/Header";
-import PortfolioNewMain from "@/components/portfolio-new";
-import Hero from "@/components/portfolio-new/Hero";
+import HomeWrapper from "@/components/portfolio-new/HomeWrapper";
 
 export const metadata = {
   title:
@@ -22,37 +19,5 @@ const customLinks = [
 ];
 
 export default function Home() {
-  return (
-    <>
-      <div className="theme-bold">
-        <div className="page" id="top">
-          {/* Navigation Panel */}
-          <nav className="main-nav transparent stick-fixed wow-menubar">
-            <Header links={customLinks} />
-          </nav>
-          {/* End Navigation Panel */}
-          
-          <main id="main">
-            {/* Hero Section */}
-            <section
-              className="home-section parallax-mousemove-scene scrollSpysection"
-              id="home"
-            >
-              <Hero />
-            </section>
-            {/* End Hero Section */}
-
-            {/* Main Sections */}
-            <PortfolioNewMain onePage />
-          </main>
-
-          {/* Footer */}
-          <footer className="footer-1 bg-dark-1 light-content">
-            <Footer />
-          </footer>
-          {/* End Footer */}
-        </div>
-      </div>
-    </>
-  );
+  return <HomeWrapper customLinks={customLinks} />;
 }

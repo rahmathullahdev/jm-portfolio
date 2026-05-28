@@ -98,7 +98,7 @@ export default function Portfolio() {
       {/* Header with Signature Bold Outline Style */}
       <div className="row mb-60 mb-sm-40">
         <div className="col-lg-10">
-          <h2 className="section-caption mb-20">Our Portfolio</h2>
+          <h2 className="section-caption mb-20">MY Portfolio</h2>
           <h2 className="section-title-medium font-alt text-outline-cont mt-20 mb-30">
             <span className="text-outline-2" aria-hidden="true">
               Creativity meets technology
